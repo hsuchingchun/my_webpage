@@ -1,15 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-TW">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>chingchun</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Dancing+Script|Noto+Serif+TC&display=swap');
+        body {
+            box-sizing: border-box;
+            background-color: #ece9e4;
+        }
+        
+        #square1 {
+            height: 400px;
+            width: 300px;
+            background-color: #514644;
+            margin-top: 100px;
+            position: fix;
+        }
+        
+        #img1 {
+            text-align: left;
+            position: fixed;
+            filter: brightness(1.1);
+            padding: 50px;
+        }
+        
+        #square2 {
+            position: fixed;
+            height: 400px;
+            width: 950px;
+            background-color: whitesmoke;
+            margin-left: 300px;
+        }
+        
+        .text_title {
+            margin-top: 100px;
+            margin-left: 700px;
+            padding-left: 10px;
+            font-family: 'Dancing Script', cursive;
+            position: relative;
+            font-size: 40pt;
+            background-color: #7e6c68;
+            color: whitesmoke;
+        }
+        
+        .text_p {
+            padding-left: 300px;
+            padding-right: 50px;
+            font-family: 'Amatic SC', cursive;
+            position: relative;
+            font-size: 14pt;
+        }
+        
+        #name {
+            font-family: 'Noto Serif TC', serif;
+            font-size: 8pt;
+            text-align: right;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>hey my name is Chiharu</h1>
+    <div id="square1">
+        <div id="square2">
+
+            <h1 class="text_title">Ocean</h1>
+            <!-- <p class="text_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore provident, facere quam impedit magni laudantium non illo harum temporibus debitis saepe ab distinctio minus excepturi qui, itaque natus, adipisci minima.</p> -->
+            <p class="text_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, corrupti. Odit officia ducimus quas, quisquam expedita consequuntur! Quibusdam saepe exercitationem inventore in dicta fugit doloribus? Explicabo, nisi amet. Officiis sint labore
+                maxime officia sapiente fugit soluta voluptatem iusto error aliquid consectetur doloribus quibusdam inventore, aliquam et quia repellendus? Aliquam sint, consequatur asperiores eius cum explicabo! Ullam magni laudantium labore fuga.</p>
+            <a class="text_p" href="./another.html">>> Go to another page</a>
+            <p class="text_p" id="name">圖資二 B07106006 許青純</p>
+        </div>
+
+        <div id="img1">
+            <img src="./img1.jpg" alt="" height="300px" width="500px">
+        </div>
+
+
+    </div>
 </body>
 
 </html>
