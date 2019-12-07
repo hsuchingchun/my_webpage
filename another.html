@@ -28,6 +28,11 @@
             padding: 50px;
         }
         
+        #img1:hover {
+            filter: brightness(0.7);
+            filter: grayscale(50%);
+        }
+        
         #square2 {
             position: fixed;
             height: 400px;
@@ -37,7 +42,7 @@
         }
         
         .text_title {
-            margin-top: 100px;
+            margin-top: 50px;
             margin-left: 700px;
             padding-left: 10px;
             font-family: 'Dancing Script', cursive;
@@ -58,6 +63,21 @@
         #name {
             text-align: right;
         }
+        
+        .bold {
+            font-weight: 700;
+            color: rgb(67, 153, 190);
+            font-size: 40pt;
+        }
+        
+        #link1 {
+            background-color: #BED3D4;
+            border: #BED3D4 2px solid;
+            border-radius: 8px;
+            margin-left: 300px;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
     </style>
 </head>
 
@@ -67,9 +87,10 @@
 
             <h1 class="text_title">Mountain</h1>
             <!-- <p class="text_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore provident, facere quam impedit magni laudantium non illo harum temporibus debitis saepe ab distinctio minus excepturi qui, itaque natus, adipisci minima.</p> -->
-            <p class="text_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, corrupti. Odit officia ducimus quas, quisquam expedita consequuntur! Quibusdam saepe exercitationem inventore in dicta fugit doloribus? Explicabo, nisi amet. Officiis sint labore
-                maxime officia sapiente fugit soluta voluptatem iusto error aliquid consectetur doloribus quibusdam inventore, aliquam et quia repellendus? Aliquam sint, consequatur asperiores eius cum explicabo! Ullam magni laudantium labore fuga.</p>
-            <a class="text_p" href="./index.html">>> Back to index page</a>
+            <p class="text_p"> <span class="bold">Lorem</span> ipsum dolor sit amet consectetur adipisicing elit. Aliquid, corrupti. Odit officia ducimus quas, quisquam expedita consequuntur! Quibusdam saepe exercitationem inventore in dicta fugit doloribus? Explicabo,
+                nisi amet. Officiis sint labore maxime officia sapiente fugit soluta voluptatem iusto error aliquid consectetur doloribus quibusdam inventore, aliquam et quia repellendus? Aliquam sint, consequatur asperiores eius cum explicabo! Ullam
+                magni laudantium labore fuga.</p>
+            <a class="text_p" id="link1" href="./index.html">>> Back to index page</a>
             <p class="text_p" id="name">by chingchun</p>
         </div>
 
